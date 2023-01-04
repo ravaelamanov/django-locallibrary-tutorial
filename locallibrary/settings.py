@@ -32,7 +32,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 ALLOWED_HOSTS = ['*']
 
 # Set CSRF trusted origins to allow any app on Railway and the local testing URL
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['http://*']
 
 
 # Application definition
